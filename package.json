@@ -1,0 +1,15 @@
+{
+  "name": "farmers_report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getBagCounts.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theblackdude"
+  },
+  "author": "Ousmane Seidy Diallo",
+  "license": "ISC"
+}
