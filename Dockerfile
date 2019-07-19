@@ -1,11 +1,17 @@
 FROM node:alpine
 
 #################################################################
-## install app
-## copy files one by one and split commands to use docker cache
+## setup containr
 #################################################################
 
 WORKDIR /code
+
+COPY docker-setup.sh apt-packages.txt /code/
+
+#################################################################
+## install app
+## copy files one by one and split commands to use docker cache
+#################################################################
 
 # Node Deps
 COPY package.json /code/package.json

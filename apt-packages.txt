@@ -1,0 +1,4 @@
+curl
+gettext
+mdbtools
+postgresql-client-9.6
