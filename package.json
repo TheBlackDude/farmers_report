@@ -4,7 +4,7 @@
   "description": "",
   "main": "getBagCounts.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha 'sampleTests.js'"
   },
   "repository": {
     "type": "git",
